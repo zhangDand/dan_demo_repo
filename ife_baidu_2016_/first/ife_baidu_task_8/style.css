@@ -1,0 +1,162 @@
+
+/*ui*/
+.panel{
+	padding: 5px;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	background-color: #eee;
+	color: red;
+}
+
+/*reset*/
+html,body{
+	margin:0;
+	padding: 0;
+}
+.container .row{
+	clear:both;
+}
+/*列样式*/
+.container .row>div{
+	padding: 10px;
+	box-sizing: border-box;
+}
+@media screen and (min-width: 769px){
+	.container{
+		width:769px;
+		margin:0 auto;
+	}
+	.row>div{
+		float:left;
+	}
+
+	.container .col-md-1{
+		width: 8.33%;
+	}
+	.container .col-md-2{
+		width: 16.66%;
+	}
+	.container .col-md-3{
+		width: 24.99%;
+	}
+	.container .col-md-4{
+		width: 33.32%;
+	}
+	.container .col-md-5{
+		width: 41.65%;
+	}
+	.container .col-md-6{
+		width: 49.98%;
+	}
+	.container .col-md-7{
+		width: 58.31%;
+	}
+	.container .col-md-8{
+		width: 66.64%;
+	}
+	.container .col-md-9{
+		width: 74.97%;
+	}
+	.container .col-md-10{
+		width: 83.3%;
+	}
+	.container .col-md-11{
+		width: 91.63%;
+	}
+	.container .col-md-12{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 513px) and (max-width: 768px){
+	.container{
+		width:500px;
+		margin:0 auto;
+	}
+	.row>div{
+		float:left;
+	}
+
+	.container .col-md-1{
+		width: 8.33%;
+	}
+	.container .col-md-2{
+		width: 16.66%;
+	}
+	.container .col-md-3{
+		width: 24.99%;
+	}
+	.container .col-md-4{
+		width: 33.32%;
+	}
+	.container .col-md-5{
+		width: 41.65%;
+	}
+	.container .col-md-6{
+		width: 49.98%;
+	}
+	.container .col-md-7{
+		width: 58.31%;
+	}
+	.container .col-md-8{
+		width: 66.64%;
+	}
+	.container .col-md-9{
+		width: 74.97%;
+	}
+	.container .col-md-10{
+		width: 83.3%;
+	}
+	.container .col-md-11{
+		width: 91.63%;
+	}
+	.container .col-md-12{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 512px){
+	.container{
+		width:100%;
+		margin:0 auto;
+	}
+	.row>div{
+		float:left;
+	}
+
+	.container .col-md-1{
+		width: 100%;
+	}
+	.container .col-md-2{
+		width: 100%;
+	}
+	.container .col-md-3{
+		width: 100%;
+	}
+	.container .col-md-4{
+		width: 100%;
+	}
+	.container .col-md-5{
+		width: 100%;
+	}
+	.container .col-md-6{
+		width: 100%;
+	}
+	.container .col-md-7{
+		width: 100%;
+	}
+	.container .col-md-8{
+		width: 100%;
+	}
+	.container .col-md-9{
+		width: 100%;
+	}
+	.container .col-md-10{
+		width: 100%;
+	}
+	.container .col-md-11{
+		width: 100%;
+	}
+	.container .col-md-12{
+		width: 100%;
+	}
+}
