@@ -1,0 +1,38 @@
+/*ui 代码*/
+html,body{
+	margin: 0;
+	padding:0;
+}
+.container>div{
+	margin:20px 0;
+	width:150px;
+	border: 1px solid #f00;
+}
+.item1{
+	height: 120px;
+}
+.item2{
+	height: 100px;
+}
+.item3{
+	height:40px;
+}
+div.item4{
+	height:200px;
+	border-color: #00f;
+}
+/* 布局代码 */
+.container{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+@media screen and (max-width:640px){
+	.item4{
+		order:-1;
+	}
+	.container{
+		align-items: flex-start;
+	}
+}
