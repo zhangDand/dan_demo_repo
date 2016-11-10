@@ -1,0 +1,97 @@
+.title-bar{
+  color:#fff;
+  background-color: #74D6E5;
+  padding:0.5rem;
+}
+.nav-tab{
+  padding: 0.7rem 0 0;
+}
+.nav .active .nav-ico{
+  background-color: #74D6E5;
+  background-size: 12px;
+}
+.nav .nav-ico{
+  display: inline-block;
+  width: 100%;
+  height:2px;
+  bottom:0;
+}
+
+/* 标签栏 */
+.label-bar{
+  padding: 0.8rem;
+}
+.label{
+  display: block;
+  margin:0.5rem 0 0;
+  width:3rem;
+  height: 3rem;
+  background-color: #88D8E4;
+  border-radius: 50%;
+}
+/* 分栏 */
+.fenlan{
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom:1rem solid #ddd;
+}
+.fenlan .title{
+  margin:0.3rem 0;
+  font-size: 24px;
+}
+.fenlan .subtitle{
+  font-size:16px;
+}
+/*模块1*/
+.module{
+  padding:0.5rem;
+  border-bottom:1rem solid #ddd;
+}
+.module .title{
+  margin-bottom: 0.5rem;
+  border-bottom:1px solid #ddd;
+  font-size: 22px;
+}
+.module .wenan{
+  padding:0 10px 10px 0;
+}
+.module .content .col:last-child .wenan{
+  padding-right: 0;
+}
+.module .wenan-li{
+  height:45px;
+  background-color: #ddd;
+}
+/* media 左图右文*/
+.media{
+  width:100%;
+  padding:0.5rem;
+  overflow: hidden;
+  border-bottom: 2px solid #ddd;
+}
+
+.media-left{
+  float:left;
+  margin-right: 0.5rem;
+}
+.media-body{
+  min-height:100px;
+  position: relative;
+}
+.media-body .title{
+  font-size: 22px;
+}
+.media-body .subtitle{
+  position: absolute;
+  bottom:0;
+}
+
+.media .imglist img{
+  width:110px;
+  height:100px;
+}
+
+.footer{
+  height: 50px;
+  background-color: #eee;
+}

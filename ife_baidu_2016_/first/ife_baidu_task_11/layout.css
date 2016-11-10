@@ -1,0 +1,42 @@
+.container>.row{
+	clear:both;
+	overflow: hidden;
+}
+.clearfix:after{content:".";display:block;clear:both; height:0 ; overflow: hidden; visibility: hidden;}
+/*列样式*/
+.container>.row>div{
+	box-sizing: border-box;
+}
+.container>.row>div{
+	float:left;
+}
+/* 行内布局 */
+.center{
+	text-align: center;
+}
+.absolute{
+	position: absolute;
+}
+.flex-box-around{
+	display: flex;
+	justify-content: space-around;
+}
+.flex-box-between{
+	display: flex;
+	justify-content: space-between;
+}
+.flex-grow-1{
+	flex-grow:1;
+}
+.flex-grow-2{
+	flex-grow:2;
+}
+
+/* 局部样式 */
+	/*垂直分割线*/
+		.hr-vertical>*{
+			border-right: 1px solid #aaa;
+		}
+		.hr-vertical>:last-child{
+			border-right: none;
+		}
