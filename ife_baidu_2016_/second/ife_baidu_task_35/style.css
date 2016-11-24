@@ -1,0 +1,64 @@
+.container{
+	float:left;
+	position: relative;
+	width:550px;
+	height:550px;
+}
+.container .row{
+	float: left;
+}
+.container .col{
+	float: left;
+	width:50px;
+	height:50px;
+	border:1px solid #a0dbed;
+	box-sizing: border-box;
+}
+.container .cursor{
+	position: absolute;
+	width:50px;
+	height:50px;
+	background-color: #f552e5;
+	transition: all 1s;
+}
+.container .cursor:hover{
+	width:200px;
+}
+.container .cursor .head{
+	width:50px;
+	height:10px;
+	background-color: #83f1ee;
+}
+.container .cursor .head:hover{
+	width:100px;
+	transition:all 1s;
+}
+.container .rownum>div{
+	float:left;
+	width:50px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+}
+.container .colnum>div{
+	width:50px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+}
+.container .box{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	outline:1px solid #888;
+	width: 500px;
+	height:500px;
+}
+.console{
+	float:left;
+	padding:30px;
+}
+.console textarea{
+	background-color: #333;
+	color: #6ddbf9;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>ife_baidu_task_27</title>
+</head>
+<style>
+	.universe{
+		position: relative;
+		width:500px;
+		height: 500px;
+		background-color: rgb(19, 9, 46);
+		margin: 0 auto;
+	}
+	.plante{
+		position: absolute;
+		top:210px;
+		left:210px;
+		width: 80px;
+		height: 80px;
+		background-color: rgb(160, 242, 42);
+		border-radius: 50%;
+	}
+	.vehicle{
+		position: absolute;
+		left:230px;
+		top: 165px;
+		width:30px;
+		height:20px;
+		background-color: rgb(173, 228, 199);
+		border-right: 10px solid #47188f;
+		text-align: center;
+		transition: transform 1s linear;
+	}
+	.vehicle{
+		/*transform-origin:center 85px;*/
+		/*animation: shipfly linear 4s infinite*/
+	}
+	@keyframes shipfly {
+		from{
+			transform: rotate(0deg);
+		}
+		to{
+			transform: rotate(360deg);
+		}
+	}
+	.orbit_1{
+		position: absolute;
+		top:175px;
+		left:175px;
+		width:150px;
+		height:150px;
+		border:1px solid #81aced;
+		border-radius: 50%;
+	}
+	.orbit_2{
+		position: absolute;
+		top:125px;
+		left:125px;
+		width:250px;
+		height:250px;
+		border:1px solid #81aced;
+		border-radius: 50%;
+	}
+	.orbit_3{
+		position: absolute;
+		top:75px;
+		left:75px;
+		width:350px;
+		height:350px;
+		border:1px solid #81aced;
+		border-radius: 50%;
+	}
+	.orbit_4{
+		position: absolute;
+		top:25px;
+		left:25px;
+		width:450px;
+		height:450px;
+		border:1px solid #81aced;
+		border-radius: 50%;
+	}
+	.console{
+
+		border: 1px solid #aaa;
+	}
+
+</style>
+<body>
+	<div class="universe">
+		<div class="plante"></div>
+		<div class="orbit_1"></div>
+		<div class="orbit_2"></div>
+		<div class="orbit_3"></div>
+		<div class="orbit_4"></div>
+	</div>
+	<div class="console" id="commander">
+	</div>
+
+	<script src="main.js" charset="utf-8"></script>
+</body>
+</html>

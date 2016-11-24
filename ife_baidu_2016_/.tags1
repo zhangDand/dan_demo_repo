@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+root	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^var root	= document.getElementById('root');$/;"	variable	line:2
+buttons	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^var buttons	= document.getElementsByTagName('button');$/;"	variable	line:3
+frontBtn	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^var frontBtn	= buttons[0];$/;"	variable	line:4
+middleBtn	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^var middleBtn	= buttons[1];$/;"	variable	line:5
+endBtn	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^var endBtn	= buttons[2];$/;"	variable	line:6
+searchList	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^var searchList = [];$/;"	variable	line:8
+searchFront	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^function searchFront(root) {$/;"	function	line:10
+searchFront	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^function searchFront(root) {$/;"	function	line:10
+searchMiddle	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^function searchMiddle(root){$/;"	function	line:18
+searchMiddle	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^function searchMiddle(root){$/;"	function	line:18
+searchEnd	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^function searchEnd(root){$/;"	function	line:26
+searchEnd	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^function searchEnd(root){$/;"	function	line:26
+changeColor	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^function changeColor(){$/;"	function	line:34
+onclick	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^frontBtn.onclick = function(){$/;"	function	line:49
+frontBtn.onclick	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^frontBtn.onclick = function(){$/;"	function	line:49
+onclick	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^middleBtn.onclick = function(){$/;"	function	line:53
+middleBtn.onclick	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^middleBtn.onclick = function(){$/;"	function	line:53
+onclick	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^endBtn.onclick = function(){$/;"	function	line:57
+endBtn.onclick	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_22\main.js	/^endBtn.onclick = function(){$/;"	function	line:57

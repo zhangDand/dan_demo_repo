@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ife_baidu_task_21</title>
+  <style media="screen">
+    #tagbox{
+      height:40px;
+    }
+		.tag{
+			display: inline-block;
+			margin:5px;
+			background-color: #15e0da;
+		}
+		.tag:hover{
+			background-color: #e9a0b8;
+		}
+		.tag:hover:before{
+			content:'点击删除';
+		}
+  </style>
+</head>
+<body>
+  <div>
+    <input id="taginput" type="text">
+  </div>
+  <div id="tagbox"></div>
+  <div>
+    <textarea id="loveinput" rows="8" cols="40"></textarea>
+  </div>
+  <button type="button" name="button" id="love-btn">确认兴趣爱好</button>
+  <div id="lovebox"></div>
+
+
+
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>

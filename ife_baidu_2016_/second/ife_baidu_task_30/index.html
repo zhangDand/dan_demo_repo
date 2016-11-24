@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>ife_baidu_task_30</title>
+</head>
+<style media="screen">
+.login .box{
+	margin:0.5em 0;
+}
+.login label{
+	display: inline-block;
+	margin-right: 0.5em;
+	width:4em;
+	/*text-align: right;*/
+}
+.login{
+	display: inline-block;
+	/*width:300px;*/
+	text-align: right;
+}
+.login button{
+	display: inline-block;
+}
+.input{
+	height:1.5em;
+	padding:0 5px;
+}
+input.pass{
+	border: 1px solid #14f52a;
+	outline: none;
+}
+input.nopass{
+	border: 1px solid #eb274a;
+	outline:none;
+}
+.msg{
+	text-align: left;
+	margin-left: 80px;
+	font-size: 14px;
+	color:#aaa;
+}
+
+</style>
+<body>
+	<form name="login" class="login" autocomplete="off">
+		<div class="box">
+			<label for="names">名称</label>	<input type="text" id="names" >
+			<div class="msg msg-name"></div>
+		</div>
+		<div class="box">
+			<label for="password">密码</label> <input type="password" id="password">
+			<div class="msg msg-password"></div>
+		</div>
+		<div class="box">
+			<label for="confrim">密码确认</label> <input type="text" id="confrim">
+			<div class="msg msg-confrim"></div>
+		</div>
+		<div class="box">
+			<label for="email">邮箱</label> <input type="text" id="email">
+			<div class="msg msg-email"></div>
+		</div>
+		<div class="box">
+			<label for="phone">手机</label> <input type="text" id="phone">
+			<div class="msg msg-phone"></div>
+		</div>
+		<button name="btn">提交</button>
+	</form>
+
+	<script src="main.js" charset="utf-8"></script>
+</body>
+</html>

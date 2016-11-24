@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<style media="screen">
+	.container{
+		position: relative;
+		width:550px;
+		height:550px;
+	}
+	.container .row{
+		float: left;
+	}
+	.container .col{
+		float: left;
+		width:50px;
+		height:50px;
+		border:1px solid #a0dbed;
+		box-sizing: border-box;
+	}
+	.container .cursor{
+		position: absolute;
+		width:50px;
+		height:50px;
+		background-color: #f552e5;
+		transition: all 1s;
+	}
+	.container .cursor:hover{
+		width:200px;
+	}
+	.container .cursor .head{
+		width:50px;
+		height:10px;
+		background-color: #83f1ee;
+	}
+	.container .cursor .head:hover{
+		width:100px;
+		transition:all 1s;
+	}
+	.container .rownum>div{
+		float:left;
+		width:50px;
+		height:50px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.container .colnum>div{
+		width:50px;
+		height:50px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.container .box{
+		position: absolute;
+		top: 50px;
+		left: 50px;
+		outline:1px solid #888;
+		width: 500px;
+		height:500px;
+	}
+</style>
+<body>
+	<div class="container">
+
+		<div class="rownum">
+			<div></div>
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+			<div>7</div>
+			<div>8</div>
+			<div>9</div>
+			<div>10</div>
+		</div>
+		<div class="colnum">
+			<div></div>
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+			<div>7</div>
+			<div>8</div>
+			<div>9</div>
+			<div>10</div>
+		</div>
+		<div class="box" id="box">
+			<div class="row">
+				<div class="cursor" id="cursor">
+					<div class="head"></div>
+				</div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col"></div>
+			</div>
+		</div>
+	</div>
+	<form class="form" action="index.html" method="post" name='cmd'>
+		<label for="">前进<input type="radio" name="name" value="G"></label>
+		<label for="">向右转<input type="radio" name="name" value="R"></label>
+		<label for="">向左转<input type="radio" name="name" value="L"></label>
+		<label for="">向后转<input type="radio" name="name" value="B"></label>
+	</form>
+	<button id="confirm">执行</button>
+	<script src="main.js" charset="utf-8"></script>
+</body>
+</html>

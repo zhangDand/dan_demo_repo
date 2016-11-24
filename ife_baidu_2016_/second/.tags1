@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^<html lang="en">$/;"	function	line:2
+head	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^<head>$/;"	function	line:3
+meta	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^	<meta charset="UTF-8">$/;"	function	line:4
+meta	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^	<meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
+meta	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^	<meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
+title	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^	<title>ife_baidu_task_30<\/title>$/;"	function	line:7
+style	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^<style media="screen">$/;"	function	line:9
+body	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^<body>$/;"	function	line:43
+form	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^	<form name="login" class="login">$/;"	function	line:44
+div	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^		<div class="box">$/;"	function	line:45
+label	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^			<label for="name">名称<\/label>	<input type="text" id="names">$/;"	function	line:46
+div	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^			<div class="msg msg-name"><\/div>$/;"	function	line:47
+div	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^		<div class="box">$/;"	function	line:49
+label	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^			<label for="password">密码<\/label> <input type="text" id="password">$/;"	function	line:50
+div	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^			<div class="msg msg-password"><\/div>$/;"	function	line:51
+div	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^		<div class="box">$/;"	function	line:53
+label	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^			<label for="confrim">密码确认<\/label> <input type="text" id="confrim">$/;"	function	line:54
+div	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^			<div class="msg msg-confrim"><\/div>$/;"	function	line:55
+div	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^		<div class="box">$/;"	function	line:57
+label	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^			<label for="email">邮箱<\/label> <input type="text" id="email">$/;"	function	line:58
+div	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^			<div class="msg msg-email"><\/div>$/;"	function	line:59
+div	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^		<div class="box">$/;"	function	line:61
+label	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^			<label for="phone">手机<\/label> <input type="text" id="phone">$/;"	function	line:62
+div	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^			<div class="msg msg-phone"><\/div>$/;"	function	line:63
+button	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^		<button>提交<\/button>$/;"	function	line:65
+script	E:\dan_repo\ife_baidu_2016_\second\ife_baidu_task_30\index.html	/^	<script src="main.js" charset="utf-8"><\/script>$/;"	function	line:68

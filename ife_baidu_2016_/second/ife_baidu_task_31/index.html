@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<style>
+	#box-school{
+		display: none;
+	}
+	#box-company{
+		display: none;
+	}
+</style>
+<body>
+	<form action="" name = "opt">
+		<div class="radio">
+			<label for="radio-student">在校生</label>
+			<input type="radio" name="isstudent" value="student" id="radio-student">
+			<label for="radio-nostudent">非在校生</label>
+			<input type="radio" name="isstudent" value="nostudent" id="radio-nostudent">
+		</div>
+		<div id="box-school">
+			<label for="school">学校</label>
+			<select class="s-city" name="s-city" value="">
+				<option value="">----------</option>
+			</select>
+			<select class="s-school" name="s-school">
+				<option value="">----------</option>
+			</select>
+		</div>
+		<div id="box-company">
+			<label for="company">就业单位</label>
+			<input type="text">
+		</div>
+	</form>
+	<script src="main.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>ife_baidu_task_25</title>
+</head>
+<style media="screen">
+	#container div{
+		margin-left: 1.5rem;
+	}
+	.arrow{
+		width: 10px;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	/*.arrow.empty-arrow{
+		width:10px;
+	}*/
+	.arrow.arrow-left{
+		width: 0;
+		border-left: 10px solid #000;
+		border-top: 5px solid #fff;
+		border-bottom: 5px solid #fff;
+	}
+	.arrow.arrow-bottom{
+		width:0;
+		height:0;
+		border-top: 10px solid #000;
+		border-right: 5px solid transparent;
+		border-left: 5px solid transparent;
+	}
+	.head:hover>.button{
+		display: inline-block;
+		cursor: pointer;
+	}
+	.item-hidden{
+		display: none;
+	}
+	.button{
+		display: none;
+		font-size: 0.8rem;
+	}
+	.button.additem{
+		margin-left: 10px;
+		margin-right: 5px;
+	}
+	.click{
+		cursor: pointer;
+	}
+</style>
+<body>
+	<div id="test"></div>
+	<fieldset>
+		<legend>树形组件</legend>
+		<input type="text"><button>添加</button>
+		<input type="text"><button>查找</button>
+		<div id="container">
+			<div id="root">
+				<span class="arrow"></span><span class="title">前端工程师</span>
+				<div>
+					技术
+					<div>JavaScript</div>
+					<div>Vuejs</div>
+				</div>
+				<div>
+					吃的
+					<div>红烧肉</div>
+					<div>饺子</div>
+				</div>
+			</div>
+		</div>
+	</fieldset>
+
+	<script src="main.js" charset="utf-8"></script>
+</body>
+</html>

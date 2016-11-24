@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<style media="screen">
+	#root{
+		width:800px;
+		height:200px;
+		display: flex;
+		border: 1px solid #000;
+		padding:20px;
+	}
+	#root div{
+		padding:20px;
+		margin:5px;
+		border:1px solid #000;
+		display: flex;
+		flex-grow: 1;
+	}
+	div{
+		background-color: #fff;
+	}
+</style>
+<body>
+	<div id="root">
+		<div>
+			<div>
+				<div></div>
+				<div></div>
+			</div>
+			<div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<div>
+			<div>
+				<div></div>
+				<div></div>
+			</div>
+			<div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+	<button id="front">前</button>
+	<button id="middle">中</button>
+	<button id="end">后</button>
+	<script src="main.js" charset="utf-8"></script>
+</body>
+</html>
